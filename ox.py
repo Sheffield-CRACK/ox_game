@@ -14,8 +14,16 @@ print " ", grid_dic['7'],"|", grid_dic['8'],"|", grid_dic['9']
 
 winner = None   # The value of this variable changes when a winning condition is met
 player = 'x'    # Currently the first player is always 'x'. TODO: Have the option for 'o' to go first
+turn = 0
 
 while winner is None:   # Loop until someone wins
+    # increase the turn counter
+    turn += 1
+    
+    #check if we have reached the end of the game
+    if turn == 10:
+        winner = 'no one'
+        break
 
     # Ask the player to pick a square.
     pick = raw_input(player+" pick a square: ")
@@ -45,7 +53,6 @@ while winner is None:   # Loop until someone wins
        # If the condition is met then our variable 'winner' is changed to the current player.
        # This will break out of the loop on the next pass (as 'winner' is no longer None).
        winner = player
-       # TODO: What if it's a draw?
 
     else:
         # If no winning condition has been met then it's the other player's turn.
