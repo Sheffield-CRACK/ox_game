@@ -1,7 +1,7 @@
 # TODO: Make Python3 compatible
 
 #  We create the grid of the game. 
-#  The keys are strings becasue that's what comes out of the player's input.
+#  The keys are strings because that's what comes out of the player's input.
 #  When the player picks a square we will change the value associated with that key to either 'x' or 'o'.
 grid_dic = {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}
 
