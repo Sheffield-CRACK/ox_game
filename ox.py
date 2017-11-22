@@ -1,3 +1,5 @@
+__version__ = "v0.1.0"
+
 # TODO: Make Python3 compatible
 
 #  We create the grid of the game. 
