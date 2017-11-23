@@ -7,3 +7,5 @@ Collaborators:
 - Emma D
 - Lydia M
 - Becky A
+- Katie T
+- Jonny P
