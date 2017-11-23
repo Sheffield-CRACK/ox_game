@@ -1,6 +1,9 @@
 # ox_game
 Example code for Sheffield CRACK
 
-
-
-Becky
+Collaborators:
+- Heloise S
+- James B
+- Emma D
+- Lydia M
+- Becky A
